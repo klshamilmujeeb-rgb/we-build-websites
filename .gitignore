@@ -1,0 +1,28 @@
+# Ignore python scripts and caches
+*.py
+__pycache__/
+
+# Ignore temporary frame dumps and debug captures
+inplace_frame_*.png
+orig_frame_*.png
+phase_frame_*.png
+preview_frame_*.png
+frame_*.png
+clean_desktop_preview.png
+hero_preview_*.png
+we_are_ai_digital_*.png
+
+# Ignore original site dumps and intermediate files
+*.htm
+*.ttf
+*.css
+images/
+scratch/
+.tempmediaStorage/
+original_desktop.json
+new_desktop.json
+mobile.json
+rendered_svg.html
+google-ai-studio-prompt.md
+MASTER_PROMPT_GOOGLE_AI_STUDIO.md
+PROMPT_GOOGLE_AI_STUDIO.md
